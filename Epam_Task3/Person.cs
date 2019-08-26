@@ -27,10 +27,10 @@ namespace Epam_Task3
         }
         public void PrintAll()
         {
-            Console.Write("\n Name " + Name + " Age " + Age + " PhoneNumbers : ");
+            Console.Write("\n Name " + Name + ", Age " + Age + ", PhoneNumbers : ");
             foreach (var item in phoneNumbers)
             {
-                Console.Write(item + " ,"); ;
+                Console.Write(item + "; "); ;
             }
            
         }
@@ -39,7 +39,7 @@ namespace Epam_Task3
             Console.Write("\n"+ Name+ " - ");
             foreach (var item in phoneNumbers)
             {
-                Console.Write(item + " ,"); ;
+                Console.Write(item + "; "); ;
             }
 
         }
